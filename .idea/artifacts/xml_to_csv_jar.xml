@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="xml_to_csv:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/xml_to_csv_jar</output-path>
+    <root id="archive" name="xml_to_csv.jar">
+      <element id="module-output" name="xml_to_csv" />
+    </root>
+  </artifact>
+</component>
