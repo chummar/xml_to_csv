@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<WORKBENCH_PROJECT>
+    <BaseCalendars>
+        <Calendar
+                name="Standard">
+        </Calendar>
+    </BaseCalendars>
+    <PoolResources>
+        <PoolResource
+                resourceType="0" userFlag2="false" userFlag1="false" fullName="Sekhar Unnam" isExternal="false"
+                isActive="true" resourceId="Sekhar-Unnam" employmentType="300" openForTimeEntry="false"
+                isRole="false" trackMode="2">
+            <Calendar baseCalendar="Standard">
+            </Calendar>
+            <Curve name="availability" type="1" default="1.0"/>
+        </PoolResource>
+        <PoolResource
+                resourceType="0" userFlag2="false" userFlag1="false" fullName="Rajasekhar" isExternal="false"
+                isActive="true" resourceId="Rajasekhar" employmentType="300" openForTimeEntry="false"
+                isRole="false" trackMode="2">
+            <Calendar baseCalendar="Standard">
+            </Calendar>
+            <Curve name="availability" type="1" default="1.0"/>
+        </PoolResource>
+        <PoolResource
+                resourceType="0" userFlag2="false" userFlag1="false" fullName="Chummar" isExternal="false"
+                isActive="true" resourceId="Chummar Maly" employmentType="300" openForTimeEntry="false"
+                isRole="false" trackMode="2">
+            <Calendar baseCalendar="Standard">
+            </Calendar>
+            <Curve name="availability" type="1" default="1.0"/>
+        </PoolResource>
+    </PoolResources>
+    <Projects>
+        <Project
+                UID="AJ8K)S`&gt;E_```+%=)&gt;$T!```?P```0" program="false" closed="false" finish="2015-06-04T17:00:00"
+                active="true" name="Project1" startImposed="false" finishImposed="false" trackMode="0"
+                cpmType="0" priority="10" start="2015-05-01T08:00:00" format="0" approved="false"
+                openForTimeEntry="true">
+            <Resources>
+                <Resource
+                        requestStatus="1" resourceID="Sekhar-Unnam" openForTimeEntry="true" bookingStatus="5">
+                    <Curve name="allocation" type="1" default="1.0"/>
+                    <Curve name="rate" type="1" default="0.0"/>
+                </Resource>
+                <Resource
+                        requestStatus="1" resourceID="Rajasekhar" openForTimeEntry="true" bookingStatus="5">
+                    <Curve name="allocation" type="1" default="1.0"/>
+                    <Curve name="rate" type="1" default="0.0"/>
+                </Resource>
+                <Resource
+                        requestStatus="1" resourceID="Chummar Maly" openForTimeEntry="true" bookingStatus="5">
+                    <Curve name="allocation" type="1" default="1.0"/>
+                    <Curve name="rate" type="1" default="0.0"/>
+                </Resource>
+            </Resources>
+            <Tasks>
+                <Task
+                        start="2015-05-21T08:00:00" proxy="false" critical="false" status="0" outlineLevel="1"
+                        finish="2015-06-02T17:00:00" summary="true" milestone="false" name="Request to update the necessary subject areas in Siebel and Consumer Profiles in CMA to apply the correct Marketing Country Code/Source Country Code ("
+                        taskID="11601" fixed="true" locked="false" key="true" percComp="0.0" unplanned="false"/>
+                <Task
+                        start="2015-05-21T08:00:00" proxy="false" critical="false" status="1" outlineLevel="2"
+                        finish="2015-05-21T17:00:00" summary="false" milestone="false" name="Analysis" taskID="11601-Analysis"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Sekhar-Unnam" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-21T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-27T17:00:00" summary="false" milestone="false" name="Development"
+                        taskID="11601-Dev" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Sekhar-Unnam" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-28T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-29T17:00:00" summary="false" milestone="false" name="QA" taskID="11601-QA"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Sekhar-Unnam" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                        <Assignment
+                                status="0" resourceID="Chummar Maly" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-06-01T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-06-02T17:00:00" summary="false" milestone="false" name="Deployment"
+                        taskID="11601-Deploy" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Sekhar-Unnam" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-21T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-22T17:00:00" summary="false" milestone="false" name="Progress" taskID="11601-Progress"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false"/>
+                <Task
+                        start="2015-05-01T08:00:00" proxy="false" critical="false" status="0" outlineLevel="1"
+                        finish="2015-05-28T17:00:00" summary="true" milestone="false" name="Multiple phones are not populated when XML data is loaded, only the last one loads on the consumer record"
+                        taskID="11406" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false"/>
+                <Task
+                        start="2015-05-01T08:00:00" proxy="false" critical="false" status="2" outlineLevel="2"
+                        finish="2015-05-06T17:00:00" summary="false" milestone="false" name="Analysis" taskID="11406-Analysis"
+                        fixed="true" locked="false" key="false" percComp="1.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-07T08:00:00" proxy="false" critical="false" status="2" outlineLevel="2"
+                        finish="2015-05-20T17:00:00" summary="false" milestone="false" name="Development"
+                        taskID="11406-Dev" fixed="true" locked="false" key="false" percComp="1.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-22T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-25T17:00:00" summary="false" milestone="false" name="QA" taskID="11406-QA"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-25T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-27T17:00:00" summary="false" milestone="false" name="Deployment"
+                        taskID="11406-Deploy" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-27T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-28T17:00:00" summary="false" milestone="false" name="Progress" taskID="11406-Progress"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-01T08:00:00" proxy="false" critical="false" status="0" outlineLevel="1"
+                        finish="2015-05-28T17:00:00" summary="true" milestone="false" name="Multiple permissions (separate permission tags for each brand) do not appear in Siebel when XML data is loaded, only the last one loads on the consume"
+                        taskID="11426" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false"/>
+                <Task
+                        start="2015-05-01T08:00:00" proxy="false" critical="false" status="2" outlineLevel="2"
+                        finish="2015-05-06T17:00:00" summary="false" milestone="false" name="Analysis" taskID="11426-Analysis-"
+                        fixed="true" locked="false" key="false" percComp="1.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-07T08:00:00" proxy="false" critical="false" status="2" outlineLevel="2"
+                        finish="2015-05-20T17:00:00" summary="false" milestone="false" name="Development"
+                        taskID="11426-Dev" fixed="true" locked="false" key="false" percComp="1.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-22T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-25T17:00:00" summary="false" milestone="false" name="QA" taskID="11426-QA"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-26T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-28T17:00:00" summary="false" milestone="false" name="Deployment"
+                        taskID="11426-Deploy" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-27T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-28T17:00:00" summary="false" milestone="false" name="Progress" taskID="11426-Progress"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-21T08:00:00" proxy="false" critical="false" status="0" outlineLevel="1"
+                        finish="2015-06-04T17:00:00" summary="true" milestone="false" name="Permission Sync Date"
+                        taskID="11359" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false"/>
+                <Task
+                        start="2015-05-21T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-23T17:00:00" summary="false" milestone="false" name="Analysis" taskID="11359-Analysis"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-24T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-30T17:00:00" summary="false" milestone="false" name="Development"
+                        taskID="11359-Dev" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-31T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-06-02T17:00:00" summary="false" milestone="false" name="QA" taskID="11359-QA"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-06-03T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-06-04T17:00:00" summary="false" milestone="false" name="Deployment"
+                        taskID="11359-Deploy" fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+                <Task
+                        start="2015-05-27T08:00:00" proxy="false" critical="false" status="0" outlineLevel="2"
+                        finish="2015-05-28T17:00:00" summary="false" milestone="false" name="Progress" taskID="11359-Progress"
+                        fixed="true" locked="false" key="false" percComp="0.0" unplanned="false">
+                    <Assignments>
+                        <Assignment
+                                status="0" resourceID="Rajasekhar" unplanned="false" estPattern="2" estMax="1.0">
+                        </Assignment>
+                    </Assignments>
+                </Task>
+            </Tasks>
+        </Project>
+    </Projects>
+</WORKBENCH_PROJECT>

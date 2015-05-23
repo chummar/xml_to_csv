@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xml_to_csv">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/xml_to_csv_jar/xml_to_csv.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
